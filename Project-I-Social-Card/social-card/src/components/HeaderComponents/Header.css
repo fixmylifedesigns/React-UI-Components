@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+    width:600px;
+  }
+  
+.title{
+    padding-right:10px;
+    display: flex;
+    flex-direction: row; 
+    
+}
+.title h1{
+    font-weight: bold;
+    padding-right:10px;
+    
+}
+.title p {
+    padding-top:3px;
+    padding-right:10px;
+    color: grey;
+    font-size: 10px;
+}
+
+
+  .thumbnail img{
+    width:50px;
+    padding-right: 5px;
+  }
+
+  .content{
+      padding-top:10px;
+
+  }
