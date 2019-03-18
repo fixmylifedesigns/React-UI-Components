@@ -3,13 +3,14 @@
 .headerContainer {
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin-top: 10px;
     padding: 10px;
     font-family: sans-serif;
-    width:600px;
+    width:650px;
   }
   
 .title{
+    margin-left:10px;
     padding-right:10px;
     display: flex;
     flex-direction: row; 
@@ -21,16 +22,16 @@
     
 }
 .title p {
-    padding-top:3px;
+    padding-top:1px;
     padding-right:10px;
     color: grey;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 
   .thumbnail img{
-    width:50px;
-    padding-right: 5px;
+    width:65px;
+    padding-right: 1px;
   }
 
   .content{
