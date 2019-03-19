@@ -1,10 +1,10 @@
 import React from "react";
 import "./Display.css";
 
-function CalculatorDispay(props) {
+function CalculatorDisplay(props) {
     return (
-        <div className={props.buttonsStyle}>{props.text}</div>
+        <div className={props.displayStyle}>{props.text}</div>
     );
   }
   
-  export default CalculatorDispay;
+  export default CalculatorDisplay;
